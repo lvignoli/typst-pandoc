@@ -85,7 +85,7 @@ Unchecked items are not supported.
 ### Reader
 
 Some Pandoc AST items do not have a dedicated Typst markup.
-The result is obtained by a function call, which could be parsed, it's just a bit more intricate to get it right.
+The result is usually obtained by a generic and expected function call, which could be parsed, such as `#strike[redacted]` or `#underline[important]`.
 
 #### Blocks
 
