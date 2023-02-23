@@ -1,6 +1,7 @@
 # Typst custom reader and writer for Pandoc
 
-[_Typst_](https://typst.app) is a modern markup-based typesetting system with powerful typesetting and scripting capabilities.
+[Typst](https://typst.app) is a modern markup-based typesetting system with powerful typesetting and scripting capabilities.
+_It's really great._
 
 [Pandoc](https://pandoc.org) is a universal document converter that handles **lots** of formats.
 
