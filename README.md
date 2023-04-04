@@ -1,3 +1,10 @@
+[pandoc 3.1.2](https://github.com/jgm/pandoc/releases/tag/3.1.2) now provides a Typst writer to convert **to** Typst.
+A reader is also [planned](https://github.com/jgm/pandoc/issues/8740).
+
+Hence, because of upcoming native support for Typst, this extension will **not** be maintained.
+
+---
+
 # Typst custom reader and writer for Pandoc
 
 [Typst](https://typst.app) is a modern markup-based typesetting system with powerful typesetting and scripting capabilities.
