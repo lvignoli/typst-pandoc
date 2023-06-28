@@ -46,7 +46,7 @@ end
 -- inline_wrap wraps a doc in a call to cmd using Typst content syntax.
 -- Namely
 -- cmd[doc]
--- Any additional # in cmd is the caller responsability.
+-- Any additional # in cmd is the caller responsibility.
 local inline_wrap = function(doc, cmd)
 	cmd = cmd or "#"
 	return concat { cmd .. "[", doc, "]" }
@@ -57,7 +57,7 @@ end
 -- cmd[
 --   doc
 -- ]
--- Any additional # in cmd is the caller responsability.
+-- Any additional # in cmd is the caller responsibility.
 local wrap = function(doc, cmd)
 	cmd = cmd or "#"
 	return concat { cmd .. "[", cr, nest(doc, TAB_SIZE), cr, "]" }
