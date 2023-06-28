@@ -23,7 +23,7 @@ $$
 x_\pm = \frac{-b\pm\sqrt{b^2-4ac}}{2a}.
 $$
 
-Of course, this latex math syntax is not compilable in Typst, so for now we ouput a dummy symbol.
+Of course, this latex math syntax is not compilable in Typst, so for now we output a dummy symbol.
 
 ## Recipe
 

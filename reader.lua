@@ -69,7 +69,7 @@ local function ListItem(lev, ch)
 	return parser
 end
 
--- Typst (uncomplete) grammar.
+-- Typst (incomplete) grammar.
 G = P {
 	"Pandoc",
 	Pandoc = Ct(V "Block" ^ 0) / pandoc.Pandoc,
